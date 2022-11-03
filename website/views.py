@@ -1,13 +1,8 @@
-from contextlib import nullcontext
-from tkinter import N
 from django.shortcuts import render
-from django.core.mail import send_mail
-from django.conf import settings
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from brandon.settings import EMAIL_HOST_PASSWORD, EMAIL_HOST_USER, EMAIL_SUPER_HOST
 
 
 # Create your views here.
@@ -29,8 +24,8 @@ def index(request):
             server = smtplib.SMTP('smtp.gmail.com:587')
             server.ehlo()
             server.starttls()
-            server.login(EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)
-            server.sendmail(EMAIL_HOST_USER, EMAIL_SUPER_HOST, message.as_string())
+            server.login('brandonswayprp51@gmail.com', 'pfwrpkfwjfqyksdk')
+            server.sendmail('brandonswayprp51@gmail.com', 'mercelisvaughan@gmail.com', message.as_string())
             server.quit()
             print("email sent")
 
