@@ -2,7 +2,7 @@ from django.shortcuts import render
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
+import logging
 
 
 # Create your views here.
@@ -28,9 +28,13 @@ def index(request):
             server.sendmail('brandonswayprp51@gmail.com', 'mercelisvaughan@gmail.com', message.as_string())
             server.quit()
             print("email sent")
+            logging.info('email has been sent')
+            
 
         except Exception as e:
+            logging.info('Error in email')
             print(f'Error in sending email: {e}')
 
-        #render(request, 'index.html', {'name': name, 'email': email, 'subject': subject, 'message': message})
+        
+        logging.info('Index has been loaded')
     return render(request, 'index.html', {})
