@@ -21,4 +21,3 @@ wcwidth==0.2.5
 gunicorn==20.0.4
 Pillow==9.1.0
 psycopg2-binary==2.9.1
-pypiwin32==223
