@@ -1,0 +1,1 @@
+web: gunicorn brandon.wsgi --log-file -
