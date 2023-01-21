@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "file": "purecounter_vanilla.js",
+    "sourceRoot": "",
+    "sources": ["purecounter_vanilla.js"],
+    "names": [],
+    "mappings": "AAAA,SAASA,CAACC,EAAEC,GAAGC,IAAIC,MAAMC,QAASA,SAASC,WAAYC,YAAaC,cAAeC,iBAAmB,oBAAqB,uBAAwB,0BAA2B,6BAA8B,+BAAiC,kCAAoC,sCAAsD,wCAAyC,0CAA2C,6CAA8C,+CAAgD,iDAAkD,oDAAqD,uDAAwD,0DAA2D,6DAA8D,+DAAkE,mEAAoE,sEAAuE,yEAA0E,4EAA6E,+EAAgF,iFAAkF,oFAAqF,uFAAwF,0FAA2F,6FAA8F,+FAAgG,iGAAkG,oGAAqG,uGAAwG,0GAA2G,6GAA8G,+GAAgH,iHAAkH,oHAAqH,uHAAwH,0HAA2H,6HAA8H,+HAAgI,iI"
+  }
+  

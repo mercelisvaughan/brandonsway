@@ -108,6 +108,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# adding a test line to the proj
+
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
