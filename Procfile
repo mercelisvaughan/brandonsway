@@ -1,1 +1,1 @@
-web: gunicorn brandon.wsgi --log-file -
+web: gunicorn djangoConfigurations.wsgi --log-file -

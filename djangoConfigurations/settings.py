@@ -12,9 +12,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-07+(tebk868-28u2#og1%(_87csp*r3iriq6^tv3fb=+l96=b)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+# True will let you see development mode
+# turn to False to run on production Heroku, etc
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ["*"]
+# ["*"] for production
+# [] for development, it will let you run it on 8000 server 
 
 
 # Application definition
@@ -126,4 +131,4 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-#brandonsway/brandon/brandonsway/brandon settings file 
+#brandonsway/brandon/brandonsway/brandon settings file, this is now the only settings file 
