@@ -16,10 +16,20 @@ DEBUG = False
 # True will let you see development mode
 # turn to False to run on production Heroku, etc
 
-
-ALLOWED_HOSTS = ["*"]
 # ["*"] for production
 # [] for development, it will let you run it on 8000 server 
+
+ALLOWED_HOSTS = [
+    '*',
+    'brandonswayprp.com',
+    'www.brandonswayprp.com',
+]
+
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://brandonswayprp.com',
+    'https://www.brandonswayprp.com',
+]
 
 
 # Application definition
