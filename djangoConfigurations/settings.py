@@ -5,9 +5,6 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-07+(tebk868-28u2#og1%(_87csp*r3iriq6^tv3fb=+l96=b)'
 
@@ -15,9 +12,6 @@ SECRET_KEY = 'django-insecure-07+(tebk868-28u2#og1%(_87csp*r3iriq6^tv3fb=+l96=b)
 DEBUG = False
 # True will let you see development mode
 # turn to False to run on production Heroku, etc
-
-# ["*"] for production
-# [] for development, it will let you run it on 8000 server 
 
 ALLOWED_HOSTS = [
     '*',
